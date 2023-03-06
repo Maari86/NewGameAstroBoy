@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class Clicking : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
+    //Why not simple button clicking options?
+
     [SerializeField] private Image _img;
     [SerializeField] private Sprite _default, _pressed;
     [SerializeField] private AudioClip _compressClip, _uncompressClip;

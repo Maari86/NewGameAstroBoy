@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class BulletScript : MonoBehaviour
 {
+    //Name change bullet spawner??
+
     // Set up the bullet's properties
     public float bulletSpeed = 10f;
     public float bulletWidth = 10f;

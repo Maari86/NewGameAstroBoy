@@ -19,6 +19,7 @@ public class AstronutAttack : MonoBehaviour
 
     private void Start()
     {
+        //WHY???
         // Set the initial position of the range object relative to the player's position
         rangeObject.transform.position = transform.position + new Vector3(2f, 0f, 0f);
     }
@@ -69,7 +70,6 @@ public class AstronutAttack : MonoBehaviour
 
     private void Collect()
     {
-       
         anim.SetTrigger("collect");
         cooldownTimer = 0;
         Collider2D[] colliders = Physics2D.OverlapCircleAll(rangeObject.transform.position, 1f, LayerMask.GetMask("Gems"));

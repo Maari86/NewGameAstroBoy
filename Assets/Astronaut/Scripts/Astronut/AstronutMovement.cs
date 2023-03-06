@@ -10,8 +10,8 @@ public class AstronutMovement : MonoBehaviour
     private Animator anim;
     private float cooldownTimer = Mathf.Infinity;
     [SerializeField] private float attackCooldown;
-    [SerializeField] private Transform firePoint;
-    [SerializeField] private GameObject[] fireballs;
+    [SerializeField] private Transform firePoint;           //Not Used?
+    [SerializeField] private GameObject[] fireballs;        //Not Used?
 
     private void Awake()
     {
@@ -77,7 +77,7 @@ public class AstronutMovement : MonoBehaviour
 
     }
 
-
+    //Not used?
     private int FindFireball()
     {
         for (int i = 0; i < fireballs.Length; i++)

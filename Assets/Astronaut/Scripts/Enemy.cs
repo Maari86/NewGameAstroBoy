@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    // This is not used??
     // Define a public variable to hold the bullet prefab
     public GameObject bulletPrefab;
 
